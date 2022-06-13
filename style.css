@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #e8ffec;
+    margin: 0;
+    padding: 10px;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: DarkSlateGrey; 
+    text-decoration: underline; 
+  }
+
+  .nav-link:visited {
+    color: Maroon; 
+}
+
+.section {
+    padding: 20px 150px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.avatar{
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+.avatar_main{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.photo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photo .section-title {
+    color: black;
+}
+
+.introduce .section-title {
+    font-size: 50px;
+}
+
+.introduce .description {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.line {
+    background-color:#111c00;
+    height: 3px;
+}
+
+.footer .line
+{
+    margin-bottom: 15px;
+}
+
+.footer {
+    padding: 30px 100px 15px;
+}
+
+.footer .container {
+    background-color: #e8ffec;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    list-style: none;
+    background-color: #e8ffec;
+    margin: 0;
+    padding: 10px;
+}
+
+.logo_git {
+    width: 100px;
+    height: 30px;
+    padding: 10px 0 0 0;
+    
+}
+
+.logo_rss {
+    width: 80px;
+    height: 50px;
+    padding: 10px 0 0 0;
+}
+
+.year{
+    margin: 0 0 0 30px;
+    word-spacing: 30px;
+    font-size: 22px;
+}
+
+.topbutton {
+    width:70px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:14px;
+    border-radius: 5px;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    opacity: 0.7;
+    }
+
+    ul {
+        list-style-type: square;
+       }
